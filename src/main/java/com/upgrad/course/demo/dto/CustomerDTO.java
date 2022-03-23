@@ -1,6 +1,6 @@
 package com.upgrad.course.demo.dto;
 
-
+/*Customer data transfer object*/
 public class CustomerDTO {
 
     private int customerId;

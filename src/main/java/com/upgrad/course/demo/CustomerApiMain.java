@@ -13,6 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 public class CustomerApiMain {
     public static void main( String[] args ) {
+
         SpringApplication.run(CustomerApiMain.class, args);
     }
 }

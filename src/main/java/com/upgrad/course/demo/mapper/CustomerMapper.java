@@ -2,7 +2,9 @@ package com.upgrad.course.demo.mapper;
 
 import com.upgrad.course.demo.dto.CustomerDTO;
 import com.upgrad.course.demo.entity.CustomerEntity;
-
+/*
+* this class is used to map DTO object to Entity object and vice versa
+* */
 public class CustomerMapper {
 
     public static CustomerEntity convertDTOToEntity(CustomerDTO customerDTO) {

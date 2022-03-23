@@ -9,6 +9,9 @@ import com.upgrad.course.demo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/*
+* Service class to implement all the CRUD methods to communicate with the database.
+* */
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
