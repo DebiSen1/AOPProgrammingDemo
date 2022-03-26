@@ -2,11 +2,12 @@ package com.upgrad.course.demo.mapper;
 
 import com.upgrad.course.demo.dto.CustomerDTO;
 import com.upgrad.course.demo.entity.CustomerEntity;
-/*
-* this class is used to map DTO object to Entity object and vice versa
+/**
+* this class is used to map DTO object or actual Customer data containing object to Entity object and vice versa
 * */
 public class CustomerMapper {
 
+    //required to save the Customer data as an entity to the database
     public static CustomerEntity convertDTOToEntity(CustomerDTO customerDTO) {
         CustomerEntity customerEntity = new CustomerEntity();
         customerEntity.setFirstName(customerDTO.getFirstName());
@@ -19,6 +20,7 @@ public class CustomerMapper {
         return customerEntity;
     }
 
+    //required to convert the entity object back to actual Customer data
     public static CustomerDTO convertEntityToDTO(CustomerEntity customerEntity) {
         CustomerDTO customerDTO = new CustomerDTO();
         customerDTO.setCustomerId(customerEntity.getCustomerId());

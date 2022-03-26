@@ -11,6 +11,10 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import java.util.Objects;
 
+/**
+* This is the Entity class whose details will be saved to the database as a database entity
+ * By default, Entity class name is same as the database's table name
+ * */
 @Entity
 @Table(name = "customers", schema = "fooddelivery", catalog = "")
 public class CustomerEntity {

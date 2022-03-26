@@ -1,6 +1,10 @@
 package com.upgrad.course.demo.dto;
 
-/*Customer data transfer object*/
+/**
+ * Customer data transfer object
+ * Data Transfer Objects are objects that represent data structures that generally do not contain any business
+ * logic or behavior
+ * */
 public class CustomerDTO {
 
     private int customerId;

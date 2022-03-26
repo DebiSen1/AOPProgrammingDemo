@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * Customer Api to handle customer related requests
- *
+ * This is the main class which is the starting point for my Spring Boot Application
  */
 @SpringBootApplication
 public class CustomerApiMain {
